@@ -13,7 +13,9 @@ public class Main {
         System.out.println(component);
         System.out.println(constrComponent);
 
-        component.toString();
-        constrComponent.toString();
+        System.out.println();
+
+        System.out.println(component);
+        System.out.println(constrComponent);
     }
 }
