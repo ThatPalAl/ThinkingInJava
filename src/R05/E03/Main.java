@@ -13,5 +13,6 @@ public class Main {
 
         Flower flower4 = new Flower("Text", 4);
         flower4.printPetalCount();
+        System.out.println("After changes");
     }
 }
