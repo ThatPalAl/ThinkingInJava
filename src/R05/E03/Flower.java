@@ -5,19 +5,24 @@ public class Flower {
     String s = "starting value";
 
     public Flower() {
-
+        this("hey", 45);
+        System.out.println("Default constructor, without arguments");
     }
-    public Flower(int petalCount) {
-        this.petalCount = petalCount;
+    public Flower(int petals) {
+        petalCount = petals;
+        System.out.println("Constructor with one argument, Integer.");
     }
 
-    public Flower(String s) {
+    public Flower(String ss) {
+        System.out.println("constructor with just the String argument: ");
+        this.s = ss;
+    }
+
+    public Flower(String s, int petals) {
+        this(petals);
+        //this(s);
         this.s = s;
-    }
-
-    public Flower(int petalCount, String s) {
-        this.petalCount = petalCount;
-        this.s = s;
+        System.out.println("constructor with 2 arguments, String and Integer");
     }
 
 
