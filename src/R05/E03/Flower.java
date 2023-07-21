@@ -25,5 +25,7 @@ public class Flower {
         System.out.println("constructor with 2 arguments, String and Integer");
     }
 
-
+    void printPetalCount(){
+        System.out.println("petal Count: " + petalCount + " s: " + s);
+    }
 }
