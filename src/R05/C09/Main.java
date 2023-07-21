@@ -15,6 +15,5 @@ public class Main {
         System.out.println(constr2.toString1());
         System.out.println(constr2.toString2());
 
-
     }
 }
