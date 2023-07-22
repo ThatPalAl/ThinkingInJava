@@ -5,7 +5,7 @@ public class Main {
         Tank tank1 = new Tank(false);
         Tank tank2 = new Tank(false);
         Tank tank3 = new Tank(true);
-        Tank tank4 = new Tank(tank3.filled);
+
 
         System.out.println("Tank 1 status " + tank1.filled);
         tank1.fill();
