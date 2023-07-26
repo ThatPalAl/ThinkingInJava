@@ -6,4 +6,9 @@ public class B {
     public B(int bb) {
         this.bb = bb;
     }
+
+    @Override
+    public String toString() {
+        return " " + bb;
+    }
 }

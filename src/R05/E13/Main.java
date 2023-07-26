@@ -11,7 +11,7 @@ public class Main {
     }
     static void printArray(Object[] args) {
         for (Object o : args) {
-            System.out.print(o + " ");
+            System.out.print(o.toString() + " ");
         }
         System.out.println();
     }
