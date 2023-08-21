@@ -4,6 +4,7 @@ public class SmallBrain {
 }
 
 final class Dinosaur {
+    //While making class final, we change that it's not possible to be inherited
 
     int i = 7;
     final int j = 1;
