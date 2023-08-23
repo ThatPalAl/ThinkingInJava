@@ -10,9 +10,5 @@ public class Main {
             s[i].draw();
         }
 
-        for(Shape shape : s){
-            shape.draw();
-        }
-
     }
 }
