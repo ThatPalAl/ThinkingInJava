@@ -7,7 +7,6 @@ public class Main {
         Wind flute = new Wind();
         tune(flute);
         Music.tune(flute);
-
         BothHandedWind saxophone = new BothHandedWind();
         Music.tune(saxophone);
     }
