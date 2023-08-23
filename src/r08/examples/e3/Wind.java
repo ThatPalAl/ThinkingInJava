@@ -13,4 +13,9 @@ public class Wind extends Instrument {
     public void adjust() {
         System.out.println("Tuning the Wind object.");
     }
+
+    @Override
+    public String toString() {
+        return "Wind";
+    }
 }

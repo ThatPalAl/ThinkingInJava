@@ -12,4 +12,9 @@ public class Percussion extends Instrument {
     public void adjust() {
         System.out.println("Tuning the Percussion object.");
     }
+
+    @Override
+    public String toString() {
+        return "Percussion";
+    }
 }

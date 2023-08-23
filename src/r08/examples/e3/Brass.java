@@ -9,4 +9,9 @@ public class Brass extends Wind {
     public String what() {
         return "Brass";
     }
+
+    @Override
+    public String toString() {
+        return "Brass";
+    }
 }

@@ -13,4 +13,9 @@ public class Stringed extends Instrument {
     public void adjust() {
         System.out.println("Tuning the Stringed object.");
     }
+
+    @Override
+    public String toString() {
+        return "Stringed";
+    }
 }

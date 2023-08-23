@@ -9,6 +9,7 @@ public class Music {
             case 1 -> i.play(Note.C_SHARP);
             case 2 -> i.play(Note.MIDDLE_C);
             case 3 -> i.play(Note.B_FLAT);
+            default -> i.play(Note.MIDDLE_C);
         }
 
     }
@@ -41,7 +42,13 @@ public class Music {
 
         System.out.println("----------------------------------------------");
 
-        Instrument[] orchestra = {new Percussion(), new Wind(), new Woodwind(), brass, new Stringed()};
+        Instrument[] orchestra = {new Percussion(), new Wind(), new Woodwind(), brass, new Stringed(), new Violin()};
         tuneAll(orchestra);
+
+        System.out.println("----------------------------------------------");
+
+        for (Instrument i: orchestra) {
+            System.out.println(i);
+        }
     }
 }

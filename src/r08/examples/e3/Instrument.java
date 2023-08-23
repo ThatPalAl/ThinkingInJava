@@ -5,7 +5,12 @@ public class Instrument {
         System.out.println("Instrument.play()" + n);
     }
 
-    public String what(){
+    @Override
+    public String toString() {
+        return "Instrument;";
+    }
+
+    String what(){
         return "Instrument";
     }
 
