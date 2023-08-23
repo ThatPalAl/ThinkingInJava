@@ -7,4 +7,8 @@ public class Shape {
     public void erase(){
         System.out.println("Shape.erase()");
     }
+
+    public void amend(){
+        System.out.println("Shape.amend()");
+    }
 }
