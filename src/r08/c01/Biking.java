@@ -10,7 +10,5 @@ public class Biking {
         Cycle bicycle = new Bicycle();
         ride(bicycle);
         System.out.println("nr of wheels " + bicycle.wheels());
-
-
     }
 }
