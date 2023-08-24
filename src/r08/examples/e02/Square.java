@@ -1,4 +1,4 @@
-package r08.examples.e2;
+package r08.examples.e02;
 
 public class Square extends Shape {
     @Override

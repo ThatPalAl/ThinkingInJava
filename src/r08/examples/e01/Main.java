@@ -1,6 +1,6 @@
-package r08.examples.e1;
+package r08.examples.e01;
 
-import static r08.examples.e1.Music.tune;
+import static r08.examples.e01.Music.tune;
 
 public class Main {
     public static void main(String[] args) {

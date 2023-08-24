@@ -1,6 +1,4 @@
-package r08.examples.e2;
-
-import r07.c03.C;
+package r08.examples.e02;
 
 import java.util.Random;
 

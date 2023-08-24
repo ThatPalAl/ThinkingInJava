@@ -1,4 +1,4 @@
-package r08.examples.e1;
+package r08.examples.e01;
 
 public class Stringed extends Instrument {
     public void play(Note n){

@@ -1,4 +1,4 @@
-package r08.examples.e3;
+package r08.examples.e03;
 
 public class Violin extends Stringed {
 
