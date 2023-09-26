@@ -15,8 +15,5 @@ public class Biking {
             ((Bicycle)c).balance();
         }
 
-
-
-
     }
 }
