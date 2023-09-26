@@ -14,6 +14,5 @@ public class Biking {
         for (Cycle c: cycles) {
             ((Bicycle)c).balance();
         }
-
     }
 }
