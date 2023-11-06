@@ -3,6 +3,9 @@ package r09.examples.e11;
 public class A {
     interface B{
         void f();
+        interface BC {
+            void f(int i);
+        }
     }
     public class BImp implements B{
         public void f(){}
