@@ -15,15 +15,22 @@ public class AddingGroups {
 
         System.out.println("\n------------------------------");
         List<Integer> list = Arrays.asList(16,17,18,19,20);
-        list.set(1,99);
+        list.set(1, 99);
         for(Integer i : list){
             System.out.print(i + " ");
         }
 
         System.out.println("\n------------------------------");
-        list.add(21);
+//        list.add(21);
         for(Integer i : list){
             System.out.print(i + " ");
+        }
+
+        List<Integer> arrayList = new ArrayList<Integer>();
+        arrayList.add(123);
+        arrayList.add(1234);
+        for(Integer i : arrayList){
+            System.out.println("\n" + i);
         }
     }
 }
