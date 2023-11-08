@@ -1,6 +1,7 @@
 package r11.c01;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -29,6 +30,8 @@ public class Main {
         for(Object obj : gerbilNonParam) {
 //            obj.hop()
         }
-
+        System.out.println("\nArrays as list ");
+        System.out.println(Arrays.asList(gerbil1, gerbil2, gerbil3, gerbil1));
+        System.out.println(Arrays.asList(gerbilParam));
     }
 }
