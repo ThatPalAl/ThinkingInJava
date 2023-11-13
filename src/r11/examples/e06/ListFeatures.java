@@ -45,6 +45,11 @@ public class ListFeatures {
         System.out.println("object: " + o[3].toString());
         Pet[] petArray = pets.toArray(new Pet[0]);
         System.out.println("petArray: " + petArray[3]);
+        sub.add(hamster);
+        sub.add(hamster);
+        System.out.println(sub);
+        System.out.println(sub.remove(hamster));
+        System.out.println(sub);
 
     }
 }
