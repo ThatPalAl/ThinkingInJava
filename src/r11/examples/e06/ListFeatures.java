@@ -49,6 +49,7 @@ public class ListFeatures {
         sub.add(hamster);
         System.out.println(sub);
         System.out.println(sub.remove(hamster));
+        sub.set(4, gorilla);
         System.out.println(sub);
 
     }
