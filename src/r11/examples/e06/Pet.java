@@ -1,6 +1,8 @@
 package r11.examples.e06;
 
-public class Pet {
+import java.util.Comparator;
+
+public class Pet implements Comparable {
 
     private String name;
 
@@ -11,5 +13,10 @@ public class Pet {
     @Override
     public String toString() {
         return name;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
     }
 }
