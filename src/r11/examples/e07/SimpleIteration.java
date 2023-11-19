@@ -1,6 +1,7 @@
 package r11.examples.e07;
 
 import r11.examples.e06.Pet;
+import r11.examples.e09.ListIteration;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -18,15 +19,7 @@ public class SimpleIteration {
         Pet elephant = new Pet("elephant");
         Pet pigeon = new Pet("pigeon");
         Pet hamster = new Pet("hamster");
-        pets.add(dog);
-        pets.add(cat);
-        pets.add(mouse);
-        pets.add(gorilla);
-        pets.add(rabbit);
-        pets.add(shark);
-        pets.add(elephant);
-        pets.add(pigeon);
-        pets.add(hamster);
+        ListIteration.addPets(pets, dog, cat, mouse, gorilla, rabbit, shark, elephant, pigeon, hamster);
 
         Iterator<Pet> it = pets.iterator();
         int id = 0;
