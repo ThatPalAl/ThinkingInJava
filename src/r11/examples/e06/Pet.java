@@ -1,12 +1,10 @@
 package r11.examples.e06;
 
-import java.util.Comparator;
-
 public class Pet implements Comparable {
 
-    private int id;
+    private final int id;
     private static int next_id = 1;
-    private String name;
+    private final String name;
 
     public Pet(String name) {
         this.name = name;
@@ -26,4 +24,5 @@ public class Pet implements Comparable {
     public int id() {
         return id;
     }
+
 }
