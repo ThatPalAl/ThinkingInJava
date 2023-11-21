@@ -10,4 +10,9 @@ public class Gerbil {
     public void hop(){
         System.out.println("Gerbil nr: " + gerbilNr);
     }
+
+    @Override
+    public String toString() {
+        return "Gerbil nr : " + gerbilNr;
+    }
 }
