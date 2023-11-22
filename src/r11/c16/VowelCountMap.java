@@ -5,12 +5,12 @@ import java.util.*;
 public class VowelCountMap {
     public static void main(String[] args) {
         Set<Character> vowels = new HashSet<>();
-        Collections.addAll(vowels,'A', 'E', 'I','O','U','Y', 'a','e','i','o','u','y');
+        Collections.addAll(vowels,'A', 'E', 'I','O','U','Y');
         String wordsStr ="This new feature from OPENAI, really drives me crazy, cause for the first time ever," +
                 "you can actually verify your code straightaway. It's very simple, you only need to type in your " +
                 "query, and it returns a result in few seconds. OPENAI did everything to make your life easier, " +
                 "so why don't you try it out? Crazy stuff ooooo";
-        List<String> words = List.of(wordsStr.split("\\s"));
+        List<String> words = List.of(wordsStr.toLowerCase().split("\\s"));
         Map<Character, Integer> countEachVowel = new HashMap<>();
         int countA = 0;
         int countE = 0;
@@ -30,13 +30,7 @@ public class VowelCountMap {
                         case 'O':countO++;
                         case 'U':countU++;
                         case 'Y':countY++;
-                        case 'a':countA++;
-                        case 'e':countE++;
-                        case 'i':countI++;
-                        case 'o':countO++;
-                        case 'u':countU++;
-                        case 'y':countY++;
-                        default:;
+                        default:
                     }
                 }
             }
