@@ -20,7 +20,7 @@ public class GetBestInt {
             }
         }
         System.out.println(max);
-        Set<Map.Entry<Integer, Integer>> me = new LinkedHashSet<Map.Entry<Integer, Integer>>(map.entrySet());
+        Set<Map.Entry<Integer, Integer>> me = new LinkedHashSet<>(map.entrySet());
         int maxKey = 0;
         Iterator<Map.Entry<Integer, Integer>> it = me.iterator();
         while (it.hasNext()) {
