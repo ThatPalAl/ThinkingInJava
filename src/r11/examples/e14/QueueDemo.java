@@ -5,10 +5,10 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Random;
 
-public class CastingLL_Queue {
+public class QueueDemo {
     public static void printQ(Queue queue){
         while(queue.peek() != null){
-            System.out.println(queue.remove() + " ");
+            System.out.print(queue.remove() + " ");
         }
         System.out.println();
     }
