@@ -1,0 +1,5 @@
+package interfaces.c09;
+
+public enum EnumExample {
+    JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
+}
