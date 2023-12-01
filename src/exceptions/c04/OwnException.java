@@ -3,13 +3,15 @@ package exceptions.c04;
 public class OwnException extends Exception {
 
     int counter;
+    private String msg;
     public OwnException() {
 
     }
 
     public OwnException(String message) {
         super(message);
-        System.out.println("My own exception object created");
+        this.msg = message;
+        System.out.println("My own exception object created " + msg);
     }
 
     public void shout(){
